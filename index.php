@@ -98,7 +98,7 @@ session_start(); ?>
                 <td>$ <?php echo $value['product_price']; ?></td>
                 <td>
                     $ <?php echo number_format($value['item_quantity'] * $value['product_price'], 2); ?></td>
-                <td><a href="index.php?action=delete&id=<?php echo $value['product_id']; ?>">
+                <td><a href="Todo.php?action=delete&id=<?php echo $value['product_id']; ?>">
                         <span class="text-danger">Remove</span>
                     </a>
                 </td>
